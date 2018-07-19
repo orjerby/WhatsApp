@@ -1,0 +1,209 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+nav{
+    background: #004e45;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 15px;
+    background: #004e45;
+    font-size: 17px;
+}
+
+nav a:hover{
+    background-color: #555;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerPageTitle{
+    background: #004e45;
+    color:white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: right;
+}
+
+.headerUserTitle{
+    background: #004e45;
+    color:white;
+    font-size: 15px;
+}
+
+img{
+    border-radius: 50%;
+    width: 50px;
+}
+body{
+    background: url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg") repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container div{
+    border: 1px;
+    padding: 10px;
+}
+
+.container-contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time-contacts{
+    flex-basis: 10%;
+    padding-left: 10px;
+    order: 1;
+}
+
+.name-msg-contacts{
+    flex-basis: 80%;
+    margin-left: auto;
+    order: 2;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.img-contacts{
+    flex-basis: 10%;
+    padding-right: 10px;
+    order: 3;
+}
+
+.container-contact-chat{
+    background: #004e45;
+    color:white;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.name-contact-chat{
+    order: 1;
+}
+
+.img-contact-chat{
+    padding-right: 5px;
+    order: 2;
+}
+
+.back-contact-chat{
+    padding-right: 5px;
+    order: 3
+}
+
+.input-msg{
+    border: 0;
+    font-size: 16px;
+    outline: none;
+    height: 50px;
+    width: 120%;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.container-input{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.send-input{
+    flex-basis: 10%;
+}
+
+.input-input{
+    background-color: white;
+    flex-basis: 90%;
+}
+
+.container-message-sent{
+    display: flex;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.text-message-sent{
+    background: #e1ffc7;
+    border-radius: 5px 0px 5px 5px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 17em;
+    order: 2;
+}
+
+.time-message-sent{
+    background: #e1ffc7;
+    border-radius: 5px 0px 5px 5px;
+    color: rgba(0, 0, 0, .45);
+    font-size: 11px;
+    order: 1;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.container-contact-message-sent{
+    display: flex;
+    padding-right: 15px;
+    padding-top: 15px;
+    justify-content: flex-end;
+}
+
+.text-contact-message-sent{
+    background: white;
+    border-radius: 5px 0px 5px 5px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 17em;
+    order: 2;
+}
+
+.time-contact-message-sent{
+    background: white;
+    border-radius: 5px 0px 5px 5px;
+    color: rgba(0, 0, 0, .45);
+    font-size: 11px;
+    order: 1;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.menuList{
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundMain{
+    background-color: white;
+    height: 87vh;
+    padding: 10px 0;
+    margin: 0;
+}
