@@ -1,6 +1,6 @@
 # WhatsApp
 
-An app where you can chat with bots. You have the ability to choose contact, send them a message and get a message in return.
+A website where you can chat with bots. You have the ability to choose contact, send them a message and get a message in return.
 
 # What I Learned
 
